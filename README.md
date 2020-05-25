@@ -28,5 +28,20 @@ Sync - services communicate with each other using direct requests
 Async - services communicate with each other using events
 
 #### create an example `Blogs` Project
-
-
+```
+  181  cd Documents/CODEBASE/Microservices/
+  182  mkdir blog
+  183  cd blog
+  184  npx create-react-app client
+  185  mkdir posts
+  186  cd posts/
+  187  npm init -y
+  188  npm i express cors axios nodemon
+  189  cd ..
+  190  ls
+  191  mkdir comments
+  192. cd comments
+  192  npm init -y
+  193  npm i axios cors express nodemon
+  ```
+  
